@@ -42,19 +42,3 @@ animMeter();
     });
 
 // Modals
-// Instantiate new modal
-var modal = new Custombox.modal({
-  content: {
-    effect: 'fadein',
-    target: '#modal',
-		close: true
-  },
-	loader = {
-	active: true,
-	color: '#f10808',
-	speed: 1500,
-	}
-});
-
-// Open
-modal.close();
