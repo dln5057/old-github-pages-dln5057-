@@ -40,3 +40,15 @@ animMeter();
             }
         });
     });
+
+// Modals
+// Instantiate new modal
+var modal = new Custombox.modal({
+  content: {
+    effect: 'fadein',
+    target: '#modal'
+  }
+});
+
+// Open
+modal.open();
