@@ -48,7 +48,12 @@ var modal = new Custombox.modal({
     effect: 'fadein',
     target: '#modal',
 		close: true
-  }
+  },
+	loader = {
+	active: true,
+	color: '#000',
+	speed: 1500,
+	}
 });
 
 // Open
