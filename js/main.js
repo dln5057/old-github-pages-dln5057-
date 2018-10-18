@@ -57,4 +57,4 @@ var modal = new Custombox.modal({
 });
 
 // Open
-modal.open();
+modal.close();
