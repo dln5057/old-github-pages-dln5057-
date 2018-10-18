@@ -51,7 +51,7 @@ var modal = new Custombox.modal({
   },
 	loader = {
 	active: true,
-	color: '#000',
+	color: '#f10808',
 	speed: 1500,
 	}
 });
