@@ -750,7 +750,7 @@ Change widths as necessary
 .modal-content{
   background-color:#f4f4f4;
   margin: 20% auto;
-  width:70%;
+  width:55%;
   box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
   animation-name:modalopen;
   animation-duration:1s;
@@ -774,7 +774,7 @@ Change widths as necessary
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  height: 100vh;
+  height: 65vh;
   font-family: "Roboto", sans-serif;
 }
 
