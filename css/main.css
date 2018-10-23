@@ -769,6 +769,13 @@ Change widths as necessary
 
 .modal-body{
   padding:10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
 }
 
 .modal-footer{
@@ -913,12 +920,12 @@ body .options .option.active .shadow {
     box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black;
 }
 
-body .options .option.active .label {
+body .options .option.active .labels {
     bottom: 20px;
     left: 20px;
 }
 
-body .options .option.active .label .info > div {
+body .options .option.active .labels .info > div {
     left: 0px;
     opacity: 1;
 }
@@ -933,12 +940,12 @@ body .options .option:not(.active) .shadow {
     box-shadow: inset 0 -120px 0px -120px black, inset 0 -120px 0px -100px black;
 }
 
-body .options .option:not(.active) .label {
+body .options .option:not(.active) .labels {
     bottom: 10px;
     left: 10px;
 }
 
-body .options .option:not(.active) .label .info > div {
+body .options .option:not(.active) .labels .info > div {
     left: 20px;
     opacity: 0;
 }
@@ -952,7 +959,7 @@ body .options .option .shadow {
     transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 }
 
-body .options .option .label {
+body .options .option .labels {
     display: flex;
     position: absolute;
     right: 0px;
@@ -960,7 +967,7 @@ body .options .option .label {
     transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 }
 
-body .options .option .label .icon {
+body .options .option .labels .icon {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -973,7 +980,7 @@ body .options .option .label .icon {
     color: var(--defaultBackground);
 }
 
-body .options .option .label .info {
+body .options .option .labels .info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -982,16 +989,16 @@ body .options .option .label .info {
     white-space: pre;
 }
 
-body .options .option .label .info > div {
+body .options .option .labels .info > div {
     position: relative;
     transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out;
 }
 
-body .options .option .label .info .main {
+body .options .option .labels .info .main {
     font-weight: bold;
     font-size: 1.2rem;
 }
 
-body .options .option .label .info .sub {
+body .options .option .labels .info .sub {
     transition-delay: 0.1s;
 }
